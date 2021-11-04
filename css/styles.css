@@ -620,7 +620,8 @@ body {
   margin-right: 12px;
 }
 .subscribe-input {
-  padding: 15px 0 15px 0;
+  /* padding: 15px 0 15px 0; */
+  width: 100%;
   width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
