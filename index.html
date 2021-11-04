@@ -465,7 +465,11 @@
                 </lable>
               </div>
             </form>
-            <button type="button" class="subscribe-button">Подписаться</button>
+            <button type="button" class="subscribe-button">Подписаться
+            <svg class="icon-send" width="24px" height="24px">
+                  <use href="./images/sprites.svg#icon-icon_send"></use>
+                </svg>
+                </button>
           </div>
         </div>
       </div>
@@ -477,6 +481,24 @@
                   <use href="./images/sprites.svg#icon-close"></use>
                 </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="modal-form-field" for="">Имя
+            <input type="text" class="modal-form-input" name="user-name">
+          </label>
+
+           <label class="modal-form-field" for="">Телефон
+            <input type="text" class="modal-form-input" name="user-tel">
+          </label>
+
+           <label class="modal-form-field" for="">E-mail
+            <input type="text" class="modal-form-input" name="uder-e-mail">
+          </label>
+          <label class="modal-form-field">Комментарий
+            <textarea class="modal-form-message" name="user-massage"></textarea>
+          </label>
+          <button type="button" class="modal-form-btn">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
