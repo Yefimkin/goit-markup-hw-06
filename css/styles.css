@@ -932,6 +932,11 @@ body {
 	cursor: pointer;
 }
 
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+	background-color: #188ce8;
+}
+
 .modal-form-checkbox-label {
 	display: flex;
 	font-style: normal;
@@ -958,5 +963,9 @@ body {
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
 	background-color: var(--accent-color);
-	background-image: url(../images/icon_check.svg);
+	background-image: url(../images/on.svg);
+	border-color: var(--accent-color);
+}
+.contract-url {
+	color: #2196f3;
 }
