@@ -966,6 +966,7 @@ body {
 	background-image: url(../images/on.svg);
 	border-color: var(--accent-color);
 }
+
 .contract-url {
 	color: #2196f3;
 }
